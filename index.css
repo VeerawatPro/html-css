@@ -1,0 +1,18 @@
+.container {
+background-color: yellow;
+height: 200px;
+}
+
+.avartar {
+    float: left;
+    background-color: red;
+}
+
+.my-image{
+    max-height: 120px;
+}
+
+.myname {
+    background-color: black;
+    float: right;
+}
