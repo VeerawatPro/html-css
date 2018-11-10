@@ -1,0 +1,24 @@
+@import "button";
+
+
+$text-color: blue;
+$font-size-24:24px;
+
+@mixin font-size($size) {
+    font-size: $size;
+}
+
+body {
+    color: $text-color;
+    font-size: $font-size-24;
+}
+
+// nest
+.a {
+    color: red;
+
+    .b {
+        color: blue;
+        @include font-size(30px)
+    }
+}
